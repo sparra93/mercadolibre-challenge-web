@@ -1,8 +1,8 @@
 import React from "react";
 import { SearchResultContainer } from "./SearchResult.style"
 import { useContexData } from '../../../lib/context'
-import Breadcrumb from '../../../components/common/Breadcrumbs'
-import CardItem from "../../cards/CardItem/CardItem";
+import Breadcrumb from '../../common/Breadcrumbs'
+import CardItem from "../../cards/cardItem/CardItem";
 
 const SearcherResult = () => {
   const { products, categories, searchLoading } = useContexData();
