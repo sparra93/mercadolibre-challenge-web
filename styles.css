@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #ebebeb;
+    font-family: "Proxima Nova",-apple-system,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif,sans-serif;
+}
+
+.container{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+ul.breadcrumb {
+    list-style: none;
+    color: #666;
+    padding-left: 0;
+}
+ul.breadcrumb li {
+    display: inline;
+    font-size: 0.875rem;
+}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: #666;
+    content: "\003E";
+}
